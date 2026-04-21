@@ -4,6 +4,7 @@ namespace SpriteKind {
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Player, function (sprite, otherSprite) {
     sprites.destroy(otherSprite)
     info.changeLifeBy(1)
+    info.changeScoreBy(5)
     music.play(music.melodyPlayable(music.magicWand), music.PlaybackMode.UntilDone)
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {

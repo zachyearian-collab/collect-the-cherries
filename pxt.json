@@ -1,0 +1,24 @@
+{
+    "name": "Collect the cherries",
+    "description": "Collect cherries! Get how many cherries you can but don't die. Every 1 minute a chicken will spawn and every 5 seconds a globe will spawn.",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.14",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
